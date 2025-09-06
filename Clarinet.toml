@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/Riskdao.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.RiskCategories]
+path = 'contracts/RiskCategories.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
